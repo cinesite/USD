@@ -20,6 +20,7 @@ pxr_shared_library(${PXR_PACKAGE}
     INCLUDE_DIRS
         ${Boost_INCLUDE_DIRS}
         ${MAYA_INCLUDE_DIRS}
+        ${GLUT_INCLUDE_DIR_CS}
 
     PUBLIC_CLASSES
         hdRenderer
