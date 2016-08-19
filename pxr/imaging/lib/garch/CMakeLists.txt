@@ -22,6 +22,9 @@ pxr_shared_library(garch
     PUBLIC_CLASSES
         glPlatformContext
 
+    INCLUDE_DIRS
+        ${Boost_INCLUDE_DIRS}
+
     PUBLIC_HEADERS
         gl.h
         glext.h
@@ -32,3 +35,5 @@ pxr_shared_library(garch
     CPPFILES
         ${GLPLATFORMCONTEXT_CPP}
 )
+
+
